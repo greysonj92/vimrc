@@ -14,7 +14,7 @@ Plugin 'bling/vim-airline'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'sheerun/vim-polyglot'
-
+Plugin 'tmhedberg/SimpylFold'
 " " All of your Plugins must be added before the following line
  call vundle#end()            " required
  filetype plugin indent on    " required
@@ -41,6 +41,6 @@ autocmd VimEnter * NERDTree | wincmd p
 :set background=dark
 let NERDTreeShowHidden=1
 "let g:python_highlight_all = 1
-au BufNewFile, BufRead *.py \
-	set foldmethod=indent
+"au BufNewFile, BufRead *.py \
+"	set foldmethod=indent
 nnoremap <space> za
